@@ -27,6 +27,9 @@ print 'numberof features: ', len(features_train[0])
 print 'number of trains and tests', len(features_train), len(features_test)
 #features_train = features_train[:len(features_train)/10] 
 #labels_train = labels_train[:len(labels_train)/10] 
+=======
+features_train = features_train[:len(features_train)/1] 
+labels_train = labels_train[:len(labels_train)/1] 
 
 #########################################################
 ### your code goes here ###
@@ -49,5 +52,6 @@ print accuracy
 
 
 #########################################################
+
 
 
